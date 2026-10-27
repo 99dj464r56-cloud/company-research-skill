@@ -3,12 +3,14 @@ name: 公司课题研究
 description: >-
   Use when the user gives a company/management research title and wants a
   decision-ready A3 landscape Chinese PDF report at the quality of the
-  2026-10-27 美日台大陆个贷负增长 finished version. Do not use for ordinary Q&A,
-  Alexandria essays, decks, or one-off summaries.
+  2026-10-27 美日台大陆个贷负增长 finished version. Do not use for Alexandria-style long academic books or essays, ordinary Q&A,
+  decks, or one-off summaries — keep today's short plain briefing, not a book.
 ---
 # 公司课题研究
 
 **作用：** 只辅助复现今天《美日台大陆个贷负增长》最终版达到的水准，不另立标准、不扭曲流程。用户给一个标题 → 先出故事大纲等确认 → 再按今天定稿的规则做完 → 自查 → Codex 复核 → 只交一份 PDF。
+
+**明确不要：** Alexandria 式长篇／写书／学术腔／堆字数凑页。读者是决策者，要短、白话、可扫读；深度靠证据与结构，不靠篇幅。
 
 目录布局参考 Alexandria／Superpowers（`references/`、`scripts/`、HARD-GATE、交付前验证），**内容全部来自今天定稿与 35 轮修改倒推**，不是新要求。
 
@@ -42,6 +44,7 @@ Never invent a fact, quotation, source, date, or URL.
 | 只看缩略图 | 必须逐页看图 |
 | Codex 说了就算 | 用户取舍优先；改完再核 |
 | 另立新结构／新标准 | 只辅助达到今天的成品，不扭曲 |
+| 写成 Alexandria 长文／学术书 | 只要今天这种短白话行长简报 |
 
 ## Workflow
 
