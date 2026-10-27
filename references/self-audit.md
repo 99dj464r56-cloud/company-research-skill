@@ -23,3 +23,6 @@ python3 "$SKILL_ROOT/scripts/pdf_audit.py" 报告.pdf [禁用词…]
 
 ## D. 一致性
 币别、口径、颜色、术语、基线标签全篇一致；每个数字能在底表或来源页找到；改过的数字，所有引用页一并更新；PDF sha256 与执行者报告一致；页数正确。
+
+## E. 交付话术必须带证据（verification-before-completion）
+发 PDF 时写上本轮新鲜证据，至少：`pdf_audit.py` 输出摘要、页数、PDF sha256。禁止「看起来好了／应该没问题／差不多」。没跑本轮检查，不得声称通过。

@@ -2,9 +2,10 @@
 name: 公司课题研究
 description: >-
   Use when the user gives a company/management research title and wants a
-  decision-ready A3 landscape Chinese PDF report at the quality of the
-  2026-10-27 美日台大陆个贷负增长 finished version. Do not use for Alexandria-style long academic books or essays, ordinary Q&A,
-  decks, or one-off summaries — keep today's short plain briefing, not a book.
+  decision-ready A3 landscape Chinese PDF at the quality of the 2026-10-27 个贷负增长
+  finished briefing. Do not use for Alexandria-style long academic books or
+  essays, ordinary Q&A, decks, or one-off summaries — keep today's short plain
+  briefing, not a book.
 ---
 # 公司课题研究
 
@@ -30,7 +31,13 @@ Never invent a fact, quotation, source, date, or URL.
 
 ## HARD-GATE
 
-写正文／画图／导出 PDF 之前：写出 `references/story-outline.md` 要求的大纲 → 给用户看 → **确认后**再研究排版。借口无效。
+写正文／画图／导出 PDF 之前：
+
+1. 先写回理解（两三句：读者／要带走什么／假设），用户改口；
+2. 再写 `references/story-outline.md` 的六个问题大纲，用户确认；
+3. **确认后**才研究排版。
+
+分阶段确认：大纲确认 ≠ 结构大改已批准 ≠ 可以定稿发出。结构大改（改部分划分、页骨架）要再停一次等确认。借口无效。
 
 ## Red flags — STOP
 
@@ -45,15 +52,17 @@ Never invent a fact, quotation, source, date, or URL.
 | Codex 说了就算 | 用户取舍优先；改完再核 |
 | 另立新结构／新标准 | 只辅助达到今天的成品，不扭曲 |
 | 写成 Alexandria 长文／学术书 | 只要今天这种短白话行长简报 |
+| 大纲确认就可以发出 | 结构大改、定稿发出要另停确认 |
+| 看起来好了 | 交付必须带本轮检查证据 |
 
 ## Workflow
 
-1. **Frame** — 读 `references/story-outline.md`，发大纲，等确认。
+1. **Frame** — 读 `references/story-outline.md`：先发写回理解，再发六个问题大纲，分阶段等确认。
 2. **Architecture** — 读 `references/page-architecture.md`（今天定稿的页骨架）。
 3. **Research & write** — 读 `references/writing-rules.md`；同一执行者在 Mac 上 HTML→PDF；每轮前备份；uploads 只留一份报告 PDF。
 4. **Self-audit** — 读 `references/self-audit.md`；跑 `python3 "$SKILL_ROOT/scripts/pdf_audit.py" 报告.pdf`；图表校验；逐页看图；未跑完不得说好了。
 5. **Codex** — 读 `references/codex-review.md`（从今天几轮 Codex 意见固化的 12 条）。
-6. **Deliver** — 一份 PDF + 白话改动说明；如实说未独立核实项。
+6. **Deliver** — 一份 PDF + 白话改动说明，并带上本轮 `pdf_audit` 摘要、页数、sha256；如实说未独立核实项。不得空口说「好了」。
 
 踩坑见 `references/pitfalls.md`。样板：今天的 17 页 PDF（不入库）。
 
