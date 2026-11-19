@@ -1,28 +1,8 @@
-# company-research-skill
+# 公司课题研究（本仓库唯一基线）
 
-通用研究报告框架与汇报模板 skill（公司／行业／管理课题 → 给决策者看的中文决策简报，默认 A3 横版 PDF）。
+本 GitHub 仓库 https://github.com/99dj464r56-cloud/company-research-skill（PRIVATE，保持私有）是「公司课题研究」的唯一基线：研究框架与排版已合并在这一份 skill 中。不要另用「排版规范」或其它平行模板。公开仓库 https://github.com/99dj464r56-cloud/report-layout-standard 将改为指向本仓库，不得当作第二套标准。
 
-只收通用的方法：逻辑与证据、页面框架、排版规范、可填空的汇报模板、流程与交付自查；不含任何一份具体报告的内容。
-
-## 布局
-
-```
-SKILL.md                    # 何时用、硬门槛、工作流
-references/
-  story-outline.md          # 先写回理解与故事大纲
-  framework.md              # 首页摘要＋案例页＋借鉴汇总＋附件
-  report-template.md        # 各页填空骨架
-  logic-and-evidence.md
-  layout-rules.md
-  review-checklist.md
-  self-audit.md
-  workflow-delivery.md
-  pitfalls.md
-scripts/
-  pdf_audit.py              # PDF 自查（孤行／越界／禁用词）
-```
-
-## 在不同 AI 里使用
-
-- **Codex／Claude Code**：把整个文件夹放进各自的 skills 文件夹（如 `~/.codex/skills/`、`~/.claude/skills/`）。
-- **ChatGPT**：把 `SKILL.md` 和 `references/` 下的文件上传为 Project 知识（或自定义 GPT 知识库）；`scripts/` 需在能运行 Python 的环境里使用。
+- 先读 `SKILL.md`
+- 排版细则见 `references/layout-rules.md`
+- 交稿前必须跑 `scripts/` 里的自查和两道排版门禁：`pdf_audit.py`、`终版排版验收.py`、`检测裸数字.py`
+- 版本日期：2026-11-19。更新只改这一份，不要再复制出第二份。
